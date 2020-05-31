@@ -1,6 +1,7 @@
 # Arduino TSController
 
-An Arduino library for controlling Train Simulator. Based on keyboard simulation. Does not act as analog controller.
+An Arduino library for controlling Train Simulator, based on keyboard simulation.
+NOTE: Train Simulator has the problem that is not compatible with any sort of analog interface, for example throttle 
 ## Compatible Hardware
 
 Works on Arduino boards with HID support. Tested boards:
@@ -12,10 +13,8 @@ Works on Arduino boards with HID support. Tested boards:
 
 ### Using the Arduino IDE Library Manager
 
-1. Choose `Sketch` -> `Include Library` -> `Manage Libraries...`
-2. Type `TSController` into the search box.
-3. Click the row to select the library.
-4. Click the `Install` button to install the library.
+1. Choose `Sketch` -> `Include Library` -> `Add .ZIP Library...`
+2. Select the library downloaded from GitHub as ZIP.
 
 ### Using Git
 
