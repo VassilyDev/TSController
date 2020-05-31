@@ -1,6 +1,6 @@
-# Arduino OBD2
+# Arduino TSController
 
-An Arduino library for controlling Train Simulator. 
+An Arduino library for controlling Train Simulator. Based on keyboard simulation. Does not act as analog controller.
 ## Compatible Hardware
 
 Works on Arduino boards with HID support. Tested boards:
