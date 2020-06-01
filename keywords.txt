@@ -12,6 +12,6 @@ setBrake	KEYWORD2
 setReverser	KEYWORD2
 horn	KEYWORD2
 engineStart	KEYWORD2
-setSander	KEYWORD2
-setWipers	KEYWORD2
-switchPantograph	KEYWORD2
+toggleSander	KEYWORD2
+toggleWipers	KEYWORD2
+togglePantograph	KEYWORD2

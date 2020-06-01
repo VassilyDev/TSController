@@ -17,15 +17,13 @@ public:
   void setReverser(int direction);
   void horn();
   void engineStart();
-  void setSander(bool status);
-  void setWipers(bool status);
-  void switchPantograph();
+  void toggleSander();
+  void toggleWipers();
+  void togglePantograph();
 
 private:
     int ACCprev = 0;
     int BRAKEprev = 0;
-    bool SANDprev = false;
-    bool WIPERSprev = false;
 };
 
 

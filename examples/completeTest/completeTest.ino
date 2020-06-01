@@ -22,16 +22,16 @@ void loop() {
   delay(100);
   ctrl.engineStart();
   delay(100);
-  ctrl.setSander(true);
-  ctrl.setWipers(true);
+  ctrl.toggleSander(true);
+  ctrl.toggleWipers(true);
   delay(2000);
-  ctrl.setSander(false);
-  ctrl.setWipers(false);
+  ctrl.toggleSander(false);
+  ctrl.toggleWipers(false);
   delay(100);
   ctrl.setThrottle(0, THROTTLE_NORMAL);
   delay(100);
   ctrl.setBrake(0, BRAKE_NORMAL);
   delay(100);
-  ctrl.switchPantograph();
+  ctrl.togglePantograph();
 
 }

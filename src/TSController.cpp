@@ -11,6 +11,7 @@ int TSController::begin(){
 
 void TSController::setThrottle(int n, int mode){
     int speed = 0;
+    if ((n > 4000) || (n < 0)) return;
     if (mode == 1) {
         speed = map(n, 0, 4000, 0, 4000);
     }
@@ -43,6 +44,7 @@ void TSController::setThrottle(int n, int mode){
 
 void TSController::setBrake(int n, int mode) {
     int brake = 0;
+    if ((n > 1000) || (n < 0)) return;
     if (mode == 1) {
         brake = map(n, 0, 1000, 0, 1000);
     }
@@ -101,25 +103,19 @@ void TSController::engineStart() {
     Keyboard.releaseAll();
 }
 
-void TSController::setSander(bool status) {
-    if (status != SANDprev) {
+void TSController::toggleSander() {
         Keyboard.press('x');
         delay(400);
         Keyboard.releaseAll();
-        SANDprev = status;
-    }
 }
 
-void TSController::setWipers(bool status) {
-    if (status != WIPERSprev) {
+void TSController::toggleWipers() {
         Keyboard.press('v');
         delay(400);
         Keyboard.releaseAll();
-        WIPERSprev = status;
-    }
 }
 
-void TSController::switchPantograph() {
+void TSController::togglePantograph() {
         Keyboard.press('p');
         delay(400);
         Keyboard.releaseAll();
