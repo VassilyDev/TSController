@@ -9,7 +9,7 @@ A list with required configuration based upon different trains is under construc
 ## Usage
 
 Keyboard input must be set to US in the computer. This enables the correct key binding to the system.
-Full documentation is available in the example files.
+Full documentation is available in the example files and on my website https://felicetti-a.eu/2020/06/01/arduino-train-simulator-control-library/
 
 ## Compatible Hardware
 
