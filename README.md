@@ -11,6 +11,7 @@ A list with required configuration based upon different trains is under construc
 Keyboard input must be set to US in the computer. This enables the correct key binding to the system.
 Full documentation is available in the example files and in the Wiki section on GitHub.
 - [Regulator&Brake usage](https://github.com/VassilyDev/TSController/wiki/Regulator&Brake)
+- [Commands](https://github.com/VassilyDev/TSController/wiki/Commands)
 
 ## Compatible Hardware
 
