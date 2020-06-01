@@ -76,12 +76,12 @@ void TSController::setBrake(int n, int mode) {
 void TSController::setReverser(int direction) {
     if (direction == 1) {
         Keyboard.press('w');
-        delay(400);
+        delay(1000);
         Keyboard.releaseAll();
     }
     else if (direction = 2) {
         Keyboard.press('d');
-        delay(400);
+        delay(1000);
         Keyboard.releaseAll();
     }
     else {
