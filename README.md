@@ -6,6 +6,11 @@ I do not intend to say that it is the best possible method or that it works in t
 Different trains will work differently, so I had to make some different implementations of the regulator and the brake section.
 A list with required configuration based upon different trains is under construction.
 
+## Usage
+
+Keyboard input must be set to US in the computer. This enables the correct key binding to the system.
+Full documentation is available in the example files.
+
 ## Compatible Hardware
 
 Works on Arduino boards with HID support. Tested boards:
