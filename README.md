@@ -4,7 +4,6 @@ NOTE: Train Simulator has the problem that is not compatible with any sort of an
 I do not intend to say that it is the best possible method or that it works in the best way, but it is the best solution that I have managed to find for the moment.
 Different trains will work differently, so I had to make some different implementations of the regulator and the brake section.
 A list with required configuration based upon different trains is under construction.
------ UNDER CONSTRUCTION -----
 
 ## Usage
 
