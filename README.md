@@ -36,8 +36,8 @@ git clone https://github.com/VassilyDev/TSControl
 ## Examples
 
 See [examples](examples) folder.
+
 [![Test drive](https://img.youtube.com/vi/tqS4coBAUao/maxresdefault.jpg)](https://youtu.be/tqS4coBAUao)
-![Output sample](https://j.gifs.com/oVBZ4B.gif)
 
 ## License
 
