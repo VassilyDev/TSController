@@ -5,6 +5,7 @@ class TSController {
 public:
   #define THROTTLE_NORMAL 1
   #define THROTTLE_REDUCED 2
+  #define THROTTLE_MINIMAL 3
   #define BRAKE_NORMAL 1
   #define BRAKE_EXTENDED 2
   #define DIRECTION_FORWARD 1

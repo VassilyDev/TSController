@@ -18,6 +18,9 @@ void TSController::setThrottle(int n, int mode){
     else if (mode = 2) {
         speed = map(n, 0, 4000, 0, 2000);
     }
+    else if (mode = 3) {
+        speed = map(n, 0, 4000, 0, 1000);
+    }
     else {
         return;
     }
@@ -34,7 +37,7 @@ void TSController::setThrottle(int n, int mode){
         Keyboard.releaseAll();
     }
     if ((speed < 50) && (ACCprev > 50)) {
-        int del = 50;
+        int del = 200;
         Keyboard.press('d');
         delay(del);
         Keyboard.releaseAll();
@@ -67,7 +70,7 @@ void TSController::setBrake(int n, int mode) {
         Keyboard.releaseAll();
     }
     if ((brake < 50) && (BRAKEprev > 50)) {
-        int del = 50;
+        int del = 200;
         Keyboard.press(';');
         delay(del);
         Keyboard.releaseAll();
