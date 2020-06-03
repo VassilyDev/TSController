@@ -37,6 +37,7 @@ git clone https://github.com/VassilyDev/TSControl
 
 See [examples](examples) folder.
 [![Test drive](https://gifs.com/gif/traincontroller-v1-oVBZ4B)](https://www.youtube.com/watch?v=tqS4coBAUao)
+![Output sample](https://j.gifs.com/oVBZ4B.gif)
 
 ## License
 
