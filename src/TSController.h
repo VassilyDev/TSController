@@ -17,7 +17,7 @@ public:
   void setBrake(int brake, int mode);
   void setReverser(int direction);
   void horn();
-  void engineStart();
+  void toggleEngine();
   void toggleSander();
   void toggleWipers();
   void togglePantograph();

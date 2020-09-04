@@ -100,7 +100,7 @@ void TSController::horn() {
     Keyboard.releaseAll();
 }
 
-void TSController::engineStart() {
+void TSController::toggleEngine() {
     Keyboard.press('z');
     delay(400);
     Keyboard.releaseAll();
