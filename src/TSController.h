@@ -21,6 +21,10 @@ public:
   void toggleSander();
   void toggleWipers();
   void togglePantograph();
+  void deadManConfirm();
+  void emergencyBrake();
+  void lightTypeChange();
+  void doorsOpen();
 
 private:
     int ACCprev = 0;

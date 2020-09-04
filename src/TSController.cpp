@@ -81,12 +81,12 @@ void TSController::setBrake(int n, int mode) {
 void TSController::setReverser(int direction) {
     if (direction == 1) {
         Keyboard.press('w');
-        delay(1000);
+        delay(2000);
         Keyboard.releaseAll();
     }
     else if (direction = 2) {
-        Keyboard.press('d');
-        delay(1000);
+        Keyboard.press('s');
+        delay(2000);
         Keyboard.releaseAll();
     }
     else {
@@ -122,5 +122,29 @@ void TSController::togglePantograph() {
         Keyboard.press('p');
         delay(400);
         Keyboard.releaseAll();
+}
+
+void TSController::deadManConfirm() {
+    Keyboard.press('q');
+    delay(400);
+    Keyboard.releaseAll();
+}
+
+void TSController::emergencyBrake() {
+    Keyboard.press(KEY_BACKSPACE);
+    delay(400);
+    Keyboard.releaseAll();
+}
+
+void TSController::lightTypeChange() {
+    Keyboard.press('h');
+    delay(400);
+    Keyboard.releaseAll();
+}
+
+void TSController::doorsOpen() {
+    Keyboard.press('t');
+    delay(400);
+    Keyboard.releaseAll();
 }
 
